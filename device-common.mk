@@ -55,6 +55,10 @@ PRODUCT_COPY_FILES += \
 # Properties
 -include $(LOCAL_PATH)/system_prop.mk
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.target.rc
+
 # Shims
 PRODUCT_PACKAGES += \
     libshim_dmitry_gps
