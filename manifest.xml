@@ -1,4 +1,6 @@
 <manifest version="1.0" type="device">
+<<<<<<< PATCH SET (13e11b Revert "v1a-common: Declare IKeyDisabler for vendor.lineage.)
+=======
     <hal format="hidl">
         <name>vendor.lineage.touch</name>
         <transport>hwbinder</transport>
@@ -25,4 +27,5 @@
             <instance>default</instance>
         </interface>
     </hal>
+>>>>>>> BASE      (4ae15a v1a-common: Declare IReadingEnhancement for vendor.lineage.l)
 </manifest>
